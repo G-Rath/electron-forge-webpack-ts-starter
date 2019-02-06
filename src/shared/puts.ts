@@ -1,3 +1,7 @@
+/*
+  this is a showcase file, for testing that imports work properly.
+ */
+
 /**
  * Prints `hello world!` to the console, using `console.log`.
  */
