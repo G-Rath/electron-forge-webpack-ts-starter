@@ -30,7 +30,9 @@
     "sourceMap": true,
     "removeComments": true,
     "esModuleInterop": false,
-    "plugins": [ ]
+    "typeRoots": [
+      "./../types"
+    ]
   },
   "exclude": [ "node_modules", "out" ]
 }
