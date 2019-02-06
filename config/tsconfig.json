@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [ /* overridden by "extends" */ ],
+    "baseUrl": "./../src",
+    "paths": {
+      "@src/*": [ "./*" ],
+      "@main/*": [ "./main/*" ],
+      "@renderer/*": [ "./renderer/*" ],
+      "@shared/*": [ "./shared/*" ],
+      "@test/*": [ "./test/*" ]
+    },
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "pretty": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "esModuleInterop": false,
+    "plugins": [ ]
+  },
+  "exclude": [ "node_modules", "out" ]
+}
