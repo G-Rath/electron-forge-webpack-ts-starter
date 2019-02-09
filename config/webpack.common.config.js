@@ -3,6 +3,8 @@ const path = require('path');
 const PATH_TO_ROOT = path.resolve(__dirname, '..');
 
 /**
+ * The common webpack configuration settings,
+ * shared by both `main` & `renderer` compilers.
  *
  * @type {webpack.Configuration}
  */
