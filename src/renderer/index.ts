@@ -1,5 +1,5 @@
 import puts, { putHelloSunshine } from '@shared/puts';
-import jpgGreyRoom from '@assets/grey-room.jpg';
+import jpgGreyRoom from '@assets/example-images/grey-room.jpg';
 
 puts('GOODNIGHT, ORSON!');
 
