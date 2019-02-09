@@ -28,7 +28,7 @@
     "pretty": true,
     "sourceMap": true,
     "removeComments": true,
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "typeRoots": [
       "./../types"
     ]
