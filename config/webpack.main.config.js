@@ -1,7 +1,11 @@
 const merge = require('webpack-merge');
 const common = require('./webpack.common.config');
 
-/** @type {webpack.Configuration} */
+/**
+ * The webpack configuration settings specific to the `main` compiler.
+ *
+ * @type {webpack.Configuration}
+ */
 const config = {
   entry: './src/main/index.ts'
 };
