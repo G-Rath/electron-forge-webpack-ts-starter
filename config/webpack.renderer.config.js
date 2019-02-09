@@ -1,7 +1,11 @@
 const merge = require('webpack-merge');
 const common = require('./webpack.common.config');
 
-/** @type {webpack.Configuration} */
+/**
+ * The webpack configuration settings specific to the `renderer` compiler.
+ *
+ * @type {webpack.Configuration}
+ */
 const config = {
   module: {
     rules: [
