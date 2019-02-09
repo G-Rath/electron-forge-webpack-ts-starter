@@ -11,7 +11,15 @@ const config = {
     rules: [
       {
         test: /\.(ico|png|jpg|svg)$/,
-        use: 'file-loader'
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]',
+              context: 'src'
+            }
+          }
+        ]
       }
     ]
   }
