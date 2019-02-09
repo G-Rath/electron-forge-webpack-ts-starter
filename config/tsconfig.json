@@ -6,6 +6,7 @@
     "baseUrl": "./../src",
     "paths": {
       "@src/*": [ "./*" ],
+      "@assets/*": [ "./assets/*" ],
       "@main/*": [ "./main/*" ],
       "@renderer/*": [ "./renderer/*" ],
       "@shared/*": [ "./shared/*" ],

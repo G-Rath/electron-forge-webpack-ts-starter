@@ -14,6 +14,7 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
     alias: {
       '@src': path.resolve(PATH_TO_ROOT, 'src'),
+      "@assets": path.resolve(PATH_TO_ROOT, "src/assets/"),
       '@main': path.resolve(PATH_TO_ROOT, 'src/main/'),
       '@renderer': path.resolve(PATH_TO_ROOT, 'src/renderer/'),
       '@shared': path.resolve(PATH_TO_ROOT, 'src/shared/')
