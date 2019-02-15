@@ -1,5 +1,8 @@
+const path = require('path');
 const merge = require('webpack-merge');
 const common = require('./webpack.common.config');
+
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 /**
  * The webpack configuration settings specific to the `renderer` compiler.
@@ -7,6 +10,18 @@ const common = require('./webpack.common.config');
  * @type {webpack.Configuration}
  */
 const config = {
+  plugins: [
+    new CopyWebpackPlugin(
+      [
+        { from: path.join('src', 'assets'), to: 'assets' }
+      ],
+      {
+        ignore: [
+          '.gitkeep'
+        ]
+      }
+    )
+  ],
   module: {
     rules: [
       {
